@@ -88,3 +88,46 @@ header nav ul li a {
     margin-right: -60px;
     margin-top: 3px;
 }
+
+.section-title {
+    font-size: 48px;
+    color: navy;
+    border-bottom: 3px solid white;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.works {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work {
+    margin: 20px;
+    background: navy;
+    color: white;
+    flex: 1;
+}
+
+.work img {
+    width: 100%;
+}
+
+.work-desc {
+    padding: 25px;
+}
+
+.work-desc h3 {
+    font-size: 28px;
+}
+
+.work-desc h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
